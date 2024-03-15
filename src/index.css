@@ -1,0 +1,49 @@
+:root{
+  --color-primary:#34c94b;
+  --color-white:#fff;
+  --color-black:black;
+  
+
+}
+*,
+*::before{
+  box-sizing: border-box;
+}
+*::after{
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+}
+
+*{
+  margin:0;
+}
+body{
+  font-family: "Poppins", Arial, sans-serif;
+  /* font-family: "poppins",sans-serif; */
+  background-color: var(--color-black);
+  line-height: 1.5;
+ 
+  overflow-x: hidden;
+  
+  color: var(--color-white);
+
+  -webkit-font-smoothing:antialiased;
+
+
+}
+p,h1,h2,h3,h4,h5,h6{
+  overflow-wrap: break-word;
+}
+img,svg{
+  display: block;
+  max-width: 100%;
+}
+input,button,textarea,select{
+  font: inherit;
+}
+
+.swiper-slide{
+  width: auto !important;
+}

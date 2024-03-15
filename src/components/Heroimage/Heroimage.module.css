@@ -1,0 +1,21 @@
+.divOfHeroimage{
+    width: 100%;
+height: 270px;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+color: var(--color-white);
+background-color: var(--color-black);
+gap: 30px;
+
+}
+.heroimage{
+    width: 212px;
+height: 212px;
+
+
+}
+.title{
+    text-align: center;
+}
